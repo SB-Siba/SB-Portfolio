@@ -17,12 +17,12 @@
         (function(){
             emailjs.init("-5azE-jbpM_WeeSTY");
         })();
-</script>
-
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
     <!-- box icons -->
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css">
     <!-- header design -->
     <header class="header">
         <a href="#" class="logo">SB.</a>
@@ -34,11 +34,7 @@
             <a href="#contact">Contact</a>
         </nav>
         <div class="bx bx-moon" id="darkMode-icon"></div>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        <a href="./Panda Login Form.html" id="user-icon">
-            <div class="bx bx-user"></div>
-            <span class="hover-text">Login</span>
-        </a>        
+        <div class="bx bx-menu" id="menu-icon"></div>   
     </header>
     <!-- home section design -->
     <div class="particles">
@@ -219,20 +215,29 @@
     </div>
     <section class="contact" id="contact">
         <h2 class="heading">Contact <span>Me!</span></h2>
-        <form action="#">
-            <div class="input-box">
-                <input type="text" id="name" placeholder="Full Name" required>
-                <input type="email" id="email" placeholder="Email Address" required>
+    
+        <div class="contact-box">
+            <div class="info-box">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:sbehera0330@gmail.com" target="_blank">Email</a>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <a href="tel:+919692199548" target="_blank">Phone</a>
+                </div>
+                <div class="info-item">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/sibananda-behera-276274222" target="_blank">LinkedIn Profile</a>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <a href="https://www.google.com/maps/search/Bhubaneswar" target="_blank">Bhubaneswar, Odisha, India</a>
+                </div>
             </div>
-            <div class="input-box">
-                <input type="number" id="mobile" placeholder="Mobile Number" required>
-                <input type="text" id="sub" placeholder="Email Subject" required>
-            </div>
-            <textarea id="message" cols="30" rows="10" placeholder="YourMessage" required></textarea>
-            <!-- <input type="submit" onclick="whatsapp()" value="Send Message" class="btn"> -->
-            <input type="submit" onclick="sendEmail()" value="Send Message" class="btn" data-tilt data-tilt-glare>
-        </form>
+        </div>
     </section>
+    
     <!-- footer design -->
     <footer class="footer">
         <div class="footer-text">
